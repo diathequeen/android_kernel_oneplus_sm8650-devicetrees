@@ -137,10 +137,13 @@ _platform_map = {
     },
     "blair": {
         "dtb_list": [
-
+            {"name": "blair.dtb"},
+            {"name": "blairp.dtb"},
         ],
         "dtbo_list": [
-
+            {"name": "camry-23881-blair-overlay.dtbo"},
+            {"name": "camry-23882-blair-overlay.dtbo"},
+            {"name": "camry-23882-EU-blair-overlay.dtbo"},
         ],
     },
     "pitti": {

@@ -45,6 +45,12 @@ OPLUS_PINEAPPLE_BOARDS += \
                           bale-23622-cliffs-overlay.dtbo\
                           bale-23718-cliffs-overlay.dtbo\
                           bale-24687-cliffs-overlay.dtbo
+else ifeq ($(CONFIG_CAMRY_DTB),y)
+OPLUS_PINEAPPLE_BOARDS += \
+                          camry-23881-blair-overlay.dtbo\
+                          camry-23882-blair-overlay.dtbo\
+                          camry-23882-blair-overlay-EU.dtbo
+
 endif
 
 dtb-y += $(OPLUS_PINEAPPLE_BOARDS) $(PINEAPPLE_BASE_DTB) $(PINEAPPLE_APQ_BASE_DTB)
